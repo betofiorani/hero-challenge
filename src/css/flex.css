@@ -1,0 +1,43 @@
+.flex {
+    display: flex !important;
+}
+
+.align-self-start {
+    align-seft: start;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.justify-center {
+    justify-content: center;
+}
+.justify-end {
+    justify-content: flex-end;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.gap-10 {
+    gap: 10px;
+}
+
+.grid-column-1 {
+    grid-template-columns: 1fr !important;
+}

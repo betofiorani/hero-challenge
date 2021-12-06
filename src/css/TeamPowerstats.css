@@ -1,0 +1,101 @@
+.team-information-container{  
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.team-name {
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.team-powerstats-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.team-powerstats {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    padding: 10px 15px;
+}
+
+.team-averages {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    padding: 10px 15px;
+}
+
+.team-powerstats .powerstat {
+    display: flex;
+    width: 100% !important;
+}
+
+.team-powerstats .powerstat .powerstat-value {
+    flex: 1;
+    margin-left: 15px;
+    font-size: 23px;
+}
+
+.team-powerstats .powerstat .icon-container {
+    flex: 4;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.team-powerstats-box {
+    background-color: #000000b8;
+}
+
+.team-powerstats-box h5 {
+    text-transform: uppercase;
+    font-size: 12px;
+    text-align: left;
+    color: white;
+    margin: 10px 0 0 15px;
+}
+
+@media(min-width:768px){
+
+    .team-powerstats-container {
+        flex-direction: row;
+    }
+    .team-averages {
+        grid-template-columns: 1fr;
+    }
+
+    .team-powerstats .powerstat .icon-container {
+        flex-direction: row;
+    }
+    .team-powerstats .powerstat .powerstat-value {
+        font-size: 20px;
+    }
+    .team-powerstats {
+        column-gap: 40px;
+    }
+    
+    .team-averages {
+        column-gap: 40px;
+    }
+}
+
+@media (min-width:980px) {
+    .team-information-container{  
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+}
+
+@media (max-width:768px) {
+
+    .team-powerstats-box {
+        margin-bottom: 20px;
+    }
+}

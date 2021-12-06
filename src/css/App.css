@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+}
+
+.fullHeight {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.welcome-title {
+  color: white;
+}
+
+.hero-card-container h1 {
+  text-align: left;
+}
+

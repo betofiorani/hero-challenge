@@ -1,0 +1,38 @@
+/* FONTS */
+.font-12 {
+    font-size: 12px;
+}
+.font-bold {
+    font-weight: bold;
+}
+
+.text-left {
+    text-align: left !important;
+}
+
+/* MARGENES */
+.margin-bottom-20 {
+    margin-bottom: 20px;
+}
+
+/* RESETEOS */
+.padding-0 {
+    padding: 0 !important;
+}
+
+.margin-0 {
+    margin: 0 !important;
+}
+
+/* PADDINGS */
+.padding-10 {
+    padding: 10px;
+}
+
+.show {
+    visibility: visible;
+}
+
+.hide {
+    visibility: hidden;
+}

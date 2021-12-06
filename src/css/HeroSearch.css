@@ -1,0 +1,28 @@
+.search-container {
+    margin-bottom: 20px;
+}
+
+.modal-content {
+    background-color: #8990b7d9 !important;
+}
+
+.hero-search-grid .text-muted {
+    color: black !important;
+}
+
+.add-hero-icon {
+    background-color: #151617;
+}
+
+.add-hero-icon:hover {
+    background-color: green;
+    color: white;
+}
+
+.disabled {
+    background-color: #611010;
+    font-size: 45px;
+    border-radius: 50%;
+    color: #79797b;
+    padding: 10px;
+}

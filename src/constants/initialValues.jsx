@@ -1,0 +1,1 @@
+export const initialTeam = [213,309,289,30,423,655] // array of 3 heroes and 3 villians 

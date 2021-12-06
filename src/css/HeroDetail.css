@@ -1,0 +1,50 @@
+.hero-detail {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-info {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.hero-info .hero-imagen img {
+    width: 100%;
+}
+
+.hero-info .hero-imagen {
+    flex: 1;
+}
+
+.hero-info .hero-infography {
+    flex: 3;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-infography .appearance {
+    flex: 1;
+}
+
+.hero-infography .biography {
+    flex: 2;
+}
+
+.hero-infography p {
+    margin: 0;
+}
+
+@media (min-width: 768px) {
+    .hero-info {
+        flex-direction: row;
+    }
+    .hero-imagen {
+        margin-right: 20px;
+    }
+}
+
+.hero-detail .powerstat .powerstat-value {
+    font-size: 25px;
+    color: #0f054d;
+}

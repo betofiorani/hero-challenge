@@ -1,0 +1,22 @@
+.new-hero {
+
+}
+
+.new-hero-btn {
+    text-decoration: none;
+    color: #90c790;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.new-hero-btn svg {
+    color: #aa841c;
+    font-size: 35px;
+    background-color: #0c6d8c;
+    border-radius: 50%;
+    margin-bottom: 8px;
+}
+
+.new-hero-btn:hover {
+    color: #0a40b4;
+}

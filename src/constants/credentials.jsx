@@ -1,0 +1,1 @@
+export const SUPER_HERO_TOKEN = "10159247425486187";

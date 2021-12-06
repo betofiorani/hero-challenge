@@ -1,0 +1,164 @@
+.hero-card-container h3 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-bottom: 12px;
+    text-align: left;
+}
+
+.hero-card {
+    background-color: #44444470 !important;
+}
+
+.hero-card:hover {
+    background-color: #00000080 !important;
+    border: 2px solid rgb(14, 1, 88);
+}
+
+.hero-card img {
+    padding: 10px;
+}
+
+.hero-card .card-body {
+    padding: 0 !important;
+    text-align: center;
+}
+
+.hero-card .card-body .card-title {
+    color: white;
+    text-align: center !important;
+}
+
+.hero-card .card-title.h5 {
+    margin: 0 !important;
+    text-transform: uppercase;
+    font-size: 17px;
+    
+}
+
+
+.hero-powerstats {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 3px !important;
+    background-color: #18171780;
+    padding: 15px 0;
+}
+
+.powerstat {
+    display: flex;
+    text-align: center !important;
+    align-items: center;
+    padding: 5px 3px !important;
+    color: white;
+    
+}
+.hero-powerstats .powerstat .icon-container {
+    flex: 4;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero-powerstats .powerstat .powerstat-value {
+    flex: 4;
+    font-size: 25px;
+}
+
+.powerstat svg {
+    font-size: 25px;
+}
+
+.powerstat span {
+    font-size: 16px;
+}
+
+@media (min-width:580px) {
+
+    .powerstat {
+        justify-content: space-between;
+    }
+}
+
+@media (min-width:768px) {
+
+    .powerstat {
+        font-size: 18px;
+    }
+    .powerstat svg {
+        font-size: 20px;
+        margin-right: 5px;
+    }
+    .powerstat span {
+        font-size: 20px;
+    }
+    .hero-powerstats .powerstat .powerstat-value {
+        flex: 4;
+        font-size: 16px;
+    }
+}
+
+.powerstat-value {
+    color: green;
+    font-weight: bold;
+}
+
+.not-available {
+    filter:grayscale(1)
+}
+
+.hidden {
+    display: none;
+}
+
+.hero-card-actions {
+    width: 100%;
+    text-align: center;
+}
+
+.search-hero-icon, .add-hero-icon {
+    font-size: 45px; 
+    border-radius: 50%;
+    color: #79797b;
+    padding: 10px;
+    cursor: pointer;
+}
+.search-hero-icon {
+    background-color: #151617;
+}
+
+.add-hero-icon {
+    background-color: green;
+}
+
+.span-not-available {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 5px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.red {
+    background-color: red;
+}
+.green {
+    background-color: green;
+}
+
+.search-hero-icon:hover {
+    background-color: green;
+    color: white;
+}
+
+.sc-dnqmqq {
+    align-self: center !important;
+}
+
+
+
+

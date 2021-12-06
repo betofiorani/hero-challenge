@@ -1,0 +1,14 @@
+.social-nav {
+    justify-content: flex-end;
+    padding-left: 5px;
+}
+
+.social-nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.social-nav a:hover {
+    color: black;
+}

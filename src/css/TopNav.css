@@ -1,0 +1,36 @@
+.top-nav-Container {
+    display: flex;
+    margin-bottom: 20px;
+    flex-direction: column;
+}
+
+.team-name h1 {
+    color: gray;
+    text-transform: uppercase;
+    font-size: 35px;
+    margin: 0;
+}
+
+.team-name span {
+    font-size: 22px;
+    color: green;
+    padding: 0 10px;
+}
+
+.team-name svg {
+    cursor: pointer;
+}
+
+.btn-top-nav {
+    margin: 0 5px;
+}
+
+@media (min-width: 768px) {
+    .team-name {
+        margin: 0;
+        flex-direction: row;
+    }
+    .top-nav-Container {
+        flex-direction: row;
+    }
+}
