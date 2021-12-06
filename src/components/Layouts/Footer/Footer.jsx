@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 const Footer = ({autor}) => {
     return (
         <div className="footer">
-            <p className="copyright">{`todos los derechos reservados a ${autor}`}</p>    
+            <p className="copyright">{`2021 - todos los derechos reservados a ${autor}`}</p>    
         </div>
     )
 }

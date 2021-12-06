@@ -48,3 +48,9 @@
     font-size: 25px;
     color: #0f054d;
 }
+
+.hero-infography span {
+    color: #161659;
+    font-weight: bold;
+    margin-right: 10px;
+}

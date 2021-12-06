@@ -17,3 +17,10 @@
   text-align: left;
 }
 
+.footer p {
+  color: #04040a;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 20px;
+}
+

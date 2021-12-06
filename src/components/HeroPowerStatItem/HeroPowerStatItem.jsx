@@ -1,8 +1,11 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import IconByName from '../IconByName'
+import { getColorPowerstat } from '../../helpers/getColorPowerstat'
 
 const HeroPowerStatItem = ({powerstat, value, labelVisible = false }) => {
+    
+    let colorPowerstat = getColorPowerstat(value)
     
     return (
         <div className="powerstat">
@@ -10,7 +13,7 @@ const HeroPowerStatItem = ({powerstat, value, labelVisible = false }) => {
                 <IconByName iconName={powerstat} />
                 {labelVisible ? <span>{powerstat}</span> : ""}
             </div>
-            <span className="powerstat-value">{value}</span>
+            <span className={`powerstat-value ${colorPowerstat}`}>{value}</span>
         </div>
     )
 }

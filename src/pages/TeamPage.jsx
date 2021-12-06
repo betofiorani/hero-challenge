@@ -117,7 +117,7 @@ const TeamPage = props => {
             setTeamAverages(newAverages)
         }
         
-        alertWithTwoButtons("Estás seguro?","warning", "Me Arrepentí", "red", "Segurísimo", "green", "footer", handleConfirm)   
+        alertWithTwoButtons("Are You Sure?","warning", "I regretted", "red", "very sure", "green", "footer", handleConfirm)   
     }
 
     const addHeroClickHandler = (heroCardId) => {
@@ -196,7 +196,10 @@ const TeamPage = props => {
                     clases ="team-information-container" 
                     teamPowerstats = {teamPowerstat && teamPowerstat} 
                     teamAverages = {teamAverages && teamAverages}/>
-                <Spinner className={heroSearchIsLoading ? "show" : "hide"} animation="border" />
+                <div className={`spinner-loading ${heroSearchIsLoading ? "show" : "hide"}`}>
+                    <Spinner className={heroSearchIsLoading ? "show" : "hide"} animation="border" />
+                    <span>Loading...</span>
+                </div>
             </PageContainer>
         </WelcomeScreen>
         )

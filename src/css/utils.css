@@ -36,3 +36,17 @@
 .hide {
     visibility: hidden;
 }
+
+.spinner-loading {
+    display: flex;
+    align-items: center;
+    top: 30%;
+    left: 50%;
+    position: absolute;
+    color: #008000;
+}
+.spinner-loading span {
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}

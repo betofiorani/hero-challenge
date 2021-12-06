@@ -8,6 +8,7 @@
 
 .hero-card {
     background-color: #44444470 !important;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .hero-card:hover {
@@ -157,6 +158,24 @@
 
 .sc-dnqmqq {
     align-self: center !important;
+}
+
+/** COLORS POWERSTATS **/
+.max {
+    color: #03ef03;
+}
+.good {
+    color: green;
+}
+.medium {
+    color:#b3b30e;
+}
+.bad {
+    color:#f39d00;
+}
+
+.poor {
+    color: #b90e0e;
 }
 
 

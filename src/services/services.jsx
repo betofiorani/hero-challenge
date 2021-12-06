@@ -4,7 +4,7 @@ import { getAlkemyURL, getSuperHeroURL } from "./utils"
 // obtener el token de Alkemy
 export const getAlkemyToken = async (data) => {
 
-    const firebaseVersion =true
+    const firebaseVersion =false
 
     if(firebaseVersion === false){
         const url = getAlkemyURL()

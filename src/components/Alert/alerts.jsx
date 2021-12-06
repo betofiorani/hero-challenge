@@ -33,7 +33,7 @@ export const alertWithTwoButtons = (title, type, cancelText, cancelColor, confir
     }).then((res) => {
     if (res.isConfirmed) {
         handleConfirm();
-        alertWithTimer("Miembro Eliminado", "success", 1500);
+        alertWithTimer("Member Deleted", "success", 1500);
     }
     if (res.isDenied) {
         
