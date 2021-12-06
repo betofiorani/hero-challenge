@@ -13,7 +13,7 @@ const HeroPowerStatItem = ({powerstat, value, labelVisible = false }) => {
                 <IconByName iconName={powerstat} />
                 {labelVisible ? <span>{powerstat}</span> : ""}
             </div>
-            <span className={`powerstat-value ${colorPowerstat}`}>{value}</span>
+            <span className={`powerstat-value ${colorPowerstat}`}>{Number.isNaN(value) ? 0 : value}</span>
         </div>
     )
 }
