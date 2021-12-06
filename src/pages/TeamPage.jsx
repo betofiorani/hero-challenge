@@ -132,6 +132,7 @@ const TeamPage = props => {
         setHeroSearchIsLoading(true)
         let heroResults = await getHeroByName(values.heroName)
         setHeroSearchResults(heroResults)
+        setHeroSearchIsLoading(false)
     }
     
     const heroCardDetailsClickHandler = (heroCardId) => {
